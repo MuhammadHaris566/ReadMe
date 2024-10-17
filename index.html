@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optional Content Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dynamic Content Creator (Optional Fields)</h1>
+    </header>
+
+    <section id="input-section">
+        <h2>Add Your Content (All fields are optional)</h2>
+        <form id="content-form">
+            <input type="text" id="title" placeholder="Title">
+            <textarea id="text" placeholder="Enter your text here..."></textarea>
+            <input type="file" id="image" accept="image/*">
+            <input type="text" id="optional-question" placeholder="Optional Question (e.g. 'What do you think?')">
+            <button type="submit">Add Content</button>
+        </form>
+    </section>
+
+    <section id="display-section">
+        <h2>Added Content</h2>
+        <div id="content-display"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Optional Content Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
